@@ -1,8 +1,8 @@
 # TITLE TEXT
 ## OTHER FILES
-[Link](https://ebayraktaroglu.github.io/cse15l-lab-reports/something.html)
+[Link to something.md](https://ebayraktaroglu.github.io/cse15l-lab-reports/something.html)
 
-[Link](https://ebayraktaroglu.github.io/cse15l-lab-reports/b.html)
+[Link to b.md](https://ebayraktaroglu.github.io/cse15l-lab-reports/b.html)
 
 I am testing **bold** and *italic*
 
