@@ -6,7 +6,7 @@
 
 I am testing **bold** and *italic*
 
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftorange.biz%2Fsnail-horns-27500&psig=AOvVaw2qieuE7LXucfzJhWjSb1cR&ust=1642113548287000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOj1zuejrfUCFQAAAAAdAAAAABAE)
+![Image](https://libreshot.com/wp-content/uploads/2018/02/snail.jpg)
 
 > Snails are like slugs, but they have shells. But they still get squashed very easily :(.
 
@@ -14,7 +14,11 @@ I am testing **bold** and *italic*
 * slugs
 * silverfish
 * ants
+
+
 ---
+
+
 `What is inline code?`
 ```
 fun
