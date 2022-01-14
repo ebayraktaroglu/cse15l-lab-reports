@@ -46,3 +46,9 @@ This is an image of me connecting to the server without a password:
 
 ***
 
+## Step 6: Optimizing Remote Running
+> First, I copied a java file I made called "TestFastEdit.java" into the server. I then tried doing the javac and java commands in one line by typing out `ssh cse15lwi22aad@ieng6.ucsd.edu "javac TestFastEdit.java; java TestFastEdit`. It worked, compiling and running the file in one line. I thought about it for some time and reread the lab instructions to understand how the quotation marks and semi-colons worked in the command line. I came up with the line `scp TestFastEdit.java cs15lwi22aad@ieng6.ucsd.edu:~/; ssh cs15lwi22aad@ieng6.ucsd.edu "javac TestFastEdit.java; java TestFastEdit"` that I thought would copy the file and compile and run it on the school server in one line. It worked. I used a semicolon to separate the scp and ssh commands. Then I put the javac and java commands in between quotation marks and separated by a semicolon. The quotes made sure both commands ran on the server through the ssh command.
+> Typing the entire line out took some time, but when I made an edit to the file, I used the up arrow to rerun the command, so it only took a second or two.
+
+This is an image of me copying, compiling, and running the java file on the server in one line:
+![Image](Lab_Report_Week_2_Screenshots/Optimizing_Remote_Running.png)
