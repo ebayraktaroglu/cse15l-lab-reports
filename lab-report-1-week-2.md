@@ -16,7 +16,7 @@ This is a screenshot of what my VSCode looks like when I open it. Yours might lo
 ## Step 2: Remotely Connecting
 
 > Since you are using a Windows computer, you have to follow the extra steps to install OpenSSH Client and OpenSSH Server. The instructions to do so are [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Follow these instructions up until the title "Connect to OpenSSH Server." **Make sure you are running VSCode and/or Powershell as an administrator.** If you do not, the commands will not work. [Here](https://docs.microsoft.com/en-us/visualstudio/ide/user-permissions-and-visual-studio?view=vs-2022#:~:text=On%20the%20Windows%20desktop%2C%20right,and%20then%20select%20OK%20again.) are instructions for how to run VSCode as an admin on Windows 10.
-> After that, find your account info for the CSE 15L class using [this link](https://sdacs.ucsd.edu/~icc/index.php). It may tell you you need to reset the password for the account. If so, do it. The effects of the password change might take some time to take effect. Your account should have the name cs15lwi22--@ieng6.ucsd.edu, where the "--" would be replaced by letters specific to your account.
+> After that, find your account info for the CSE 15L class using [this link](https://sdacs.ucsd.edu/~icc/index.php). It may tell you you need to reset the password for the account. If so, do it. The effects of the password change might take some time to take effect. Your account should have the name cs15lwi22--, where the "--" would be replaced by letters specific to your account.
 > To connect to the server, run the command `ssh cs15lwi22--@ieng6.ucsd.edu`, but with the "--" replaced by the letters in your account. If a question about authenticity pops up, answer "yes." It will then ask for the password (that you may have changed in this step). If the password doesn't work, wait some more. It could just be that the password change hasn't gone into effect yet. If the password works, you will connect to the server.
 
 This is a screenshot of what messages could pop up after the password works:
@@ -25,7 +25,13 @@ This is a screenshot of what messages could pop up after the password works:
 ***
 
 ## Step 3: Trying Some Commands
-> I connected remotely to the server, then tried some of the commands. I used ls to see the files and directories, then used pwd to see the name of the directory, then used that info to change the directory to perl5. There was nothing in there. I then tried commands on my own computer. I used the ls command, and it worked a little differently than it did on the linux os, but it did show the directories. I used the pwd command, got the directory name, and added \Downloads to change directory (using cd) to Downloads.
+> Once you've connected to the server, you can try out some commands there. You can also log off the server with the command `exit` or by doing Ctrl-D and try some commands on your computer. Since the server uses the Linux OS, and you computer should use the Windows 10 OS, some commands might not work on both of them, and they could do different things.
+> Some commands are:
+- cd (changes directory to the directory you specify after it)
+- ls (lists files and directories in the current directory)
+- pwd (tells you the name of the current directory)
+- mkdir (makes a directory with the name you type after it)
+> You can also search the internet for other commands to try
 
 This is an image of the commands on the server:
 ![Image](Lab_Report_Week_2_Screenshots/Commands_Linux.png)
