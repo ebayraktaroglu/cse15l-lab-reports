@@ -1,18 +1,22 @@
-# Week 2 Lab Report
+# Lab Report 1 - Week 2
+
+[Class Instructions](https://ucsd-cse15l-w22.github.io/week/week1/)
+
+*This tutorial is for a Windows computer
+
 ## Step 1: Installing Visual Code Studio
 
-> I had already installed Visual Code Studio for my CSE 11 class last quarter, so I didn't really do anything for this step.
+> Install Visual Code Studio using the link [here](https://code.visualstudio.com/). Make sure to download the Windows version of VSCode.
 
-This is an image of my open VSCode:
+This is an screenshot of what my VSCode looks like when I open it. Yours might look a little different:
 ![Image](Lab_Report_Week_2_Screenshots/VSCode.png)
 
 ***
 
 ## Step 2: Remotely Connecting
 
-> Since I am working on a Windows laptop, I had to follow the extra steps to install OpenSSH Client and OpenSSH Server. I checked and saw that I already had OpenSSH Client on my laptop, so I thought I was done and ignored all the other necessary steps. This caused problems later on during the lab. But I was still able to remotely connect to the ieng6 server after resetting my password and waiting for the password to update.
+> Since you are using a Windows computer, you have to follow the extra steps to install OpenSSH Client and OpenSSH Server. The instructions to do so are [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Follow these instructions up until the title "Connect to OpenSSH Server." **Make sure you are running VSCode and/or Powershell as an administrator.** If you do not, the commands will not work. [Here](https://docs.microsoft.com/en-us/visualstudio/ide/user-permissions-and-visual-studio?view=vs-2022#:~:text=On%20the%20Windows%20desktop%2C%20right,and%20then%20select%20OK%20again.) are instructions for how to run VSCode as an admin on Windows 10.
 > 
-> Later, outside the lab, I OpenSSH Server as well. I was getting some errors with the commands I needed to run, and I realized this was because wasn't opening VSCode as an administrator. I researched how to do that, and then the commands worked.
 
 This is an image of me connecting to the server:
 ![Image](Lab_Report_Week_2_Screenshots/Remotely_Connecting.png)
