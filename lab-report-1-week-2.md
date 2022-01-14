@@ -1,5 +1,7 @@
 # Lab Report 1 - Week 2
 
+[Back to Main Page](https://ebayraktaroglu.github.io/cse15l-lab-reports/)
+
 [CSE 15L Original Instructions](https://ucsd-cse15l-w22.github.io/week/week1/)
 
 *This tutorial is for a Windows computer
