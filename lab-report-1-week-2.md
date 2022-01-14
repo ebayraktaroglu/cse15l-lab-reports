@@ -16,7 +16,8 @@ This is an screenshot of what my VSCode looks like when I open it. Yours might l
 ## Step 2: Remotely Connecting
 
 > Since you are using a Windows computer, you have to follow the extra steps to install OpenSSH Client and OpenSSH Server. The instructions to do so are [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Follow these instructions up until the title "Connect to OpenSSH Server." **Make sure you are running VSCode and/or Powershell as an administrator.** If you do not, the commands will not work. [Here](https://docs.microsoft.com/en-us/visualstudio/ide/user-permissions-and-visual-studio?view=vs-2022#:~:text=On%20the%20Windows%20desktop%2C%20right,and%20then%20select%20OK%20again.) are instructions for how to run VSCode as an admin on Windows 10.
-> 
+> After that, find your account info for the CSE 15L class using [this link](https://sdacs.ucsd.edu/~icc/index.php). It may tell you you need to reset the password for the account. If so, do it. The effects of the password change might take some time to take effect. Your account should have the name cs15lwi22--@ieng6.ucsd.edu, where the "--" would be replaced by letters specific to your account.
+> To connect to the server, run the command `ssh cs15lwi22--@ieng6.ucsd.edu`, but with the "--" replaced by the letters in your account.
 
 This is an image of me connecting to the server:
 ![Image](Lab_Report_Week_2_Screenshots/Remotely_Connecting.png)
