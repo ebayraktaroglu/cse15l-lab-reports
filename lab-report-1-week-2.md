@@ -26,9 +26,16 @@ This is an image of the commands on the server:
 ![Image](Lab_Report_Week_2_Screenshots/Commands_Linux.png)
 
 This is an image of the commands on my laptop:
+![Image](Lab_Report_Week_2_Screenshots/Commands_Windows.png)
 
 ***
 
-![Image](Lab_Report_Week_2_Screenshots/Commands_Windows.png)
+4. Step 4: Moving Files with scp
+> I managed to move the WhereAmI.java file pretty easily to the server. I then logged into the server did the command ls and saw that the file was there. I then ran the javac and java commands to run the file. The getProperty method gets the property for the computer it's run on. I know this because on my computer, System.getProperty("os.name") gave "Windows 10," while on the school server, it gave "Linux."
+
+This is an image of me moving "WhereAmI.java" to the school server and running the java file.
 ![Image](Lab_Report_Week_2_Screenshots/Moving_Files_and_Doing_Java.png)
+
+***
+
 ![Image](Lab_Report_Week_2_Screenshots/SSH_Key.png)
