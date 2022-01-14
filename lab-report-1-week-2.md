@@ -8,7 +8,7 @@ This is an image of my open VSCode:
 
 ***
 
-2. Step 2: Remotely Connecting
+Step 2. Remotely Connecting
 
 > Since I am working on a Windows laptop, I had to follow the extra steps to install OpenSSH Client and OpenSSH Server. I checked and saw that I already had OpenSSH Client on my laptop, so I thought I was done and ignored all the other necessary steps. This caused problems later on during the lab. But I was still able to remotely connect to the ieng6 server after resetting my password and waiting for the password to update.
 > 
