@@ -1,6 +1,6 @@
 # Lab Report 1 - Week 2
 
-[Class Instructions](https://ucsd-cse15l-w22.github.io/week/week1/)
+[CSE 15L Original Instructions](https://ucsd-cse15l-w22.github.io/week/week1/)
 
 *This tutorial is for a Windows computer
 
