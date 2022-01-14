@@ -62,11 +62,9 @@ This is an screenshot of me moving "WhereAmI.java" to the school server and runn
 
 ## Step 5: Setting an SSH Key
 > Again, make sure you are connecting to Powershell and/or VSCode as an administrator. Follow [these](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) instructions up until it says "Deploying the public key." Also, in the part where it says `ssh-add ~\.ssh\id_ed25519` in the instructions, you have to replace the "~" with the location of the .ssh\id_ed25519. It should tell you that information during the key generation process.
-> After you've added the private key to ssh-agent, run the command `scp C:\Users\joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
-> 
-> During the lab, I managed to generate a ssh key, but when I went to run the extra commands needed for the Windows OS, they just would not work. I got stuck at this point during the lab. But later, in my own time, I figured out the issue. I wasn't connected to VSCode as an administrator, so I couldn't run those commands. Like I mentioned in Step 2, I figured out how to do that. And then the commands worked. But after that, I had issues figuring out how to copy the public key into the school server. I messed up and created a directory called "authorized_keys" in .ssh in the server instead of a textfile, and I kept trying over and over, because I couldn't figure out what was going wrong. I was managing to copy the public key into the "authorized_keys" directory, but it obviously didn't stop the need for a password to connect to the server. I finally realized my mistake, and deleted the directory I made, and then ran the command that copied the key into a textfile. And then I could connect to the school server without a password.
+> After you've added the private key to ssh-agent, run the command `scp C:\Users\NAME/.ssh/id_ed25519.pub cs15lwi22--@ieng6.ucsd.edu:~/.ssh/authorized_keys`, again replacing the "--". And the "C:\Users\NAME" should be the thing you replaced the "~" with in the previous step. This command copies the public key into the .ssh directory in the server, in a textfile called "authorized_keys." Now, you should be able to use the `scp` and `ssh` commands without entering a password.
 
-This is an image of me connecting to the server without a password:
+This is an screenshot of me connecting to the server without a password:
 ![Image](Lab_Report_Week_2_Screenshots/SSH_Key.png)
 
 ***
