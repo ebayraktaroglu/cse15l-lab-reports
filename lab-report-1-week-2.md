@@ -1,5 +1,5 @@
 # Week 2 Lab Report
-1. Step 1: Install Visual Code Studio
+1. Step 1: Installing Visual Code Studio
 
 > I had already installed Visual Code Studio for my CSE 11 class last quarter, so I didn't really do anything for this step.
 
@@ -19,7 +19,16 @@ This is an image of me connecting to the server:
 
 ***
 
+3. Step 3: Trying Some Commands
+> I connected remotely to the server, then tried some of the commands. I used ls to see the files and directories, then used pwd to see the name of the directory, then used that info to change the directory to perl5. There was nothing in there. I then tried commands on my own computer. I used the ls command, and it worked a little differently than it did on the linux os, but it did show the directories. I used the pwd command, got the directory name, and added \Downloads to change directory (using cd) to Downloads.
+
+This is an image of the commands on the server:
 ![Image](Lab_Report_Week_2_Screenshots/Commands_Linux.png)
+
+This is an image of the commands on my laptop:
+
+***
+
 ![Image](Lab_Report_Week_2_Screenshots/Commands_Windows.png)
 ![Image](Lab_Report_Week_2_Screenshots/Moving_Files_and_Doing_Java.png)
 ![Image](Lab_Report_Week_2_Screenshots/SSH_Key.png)
