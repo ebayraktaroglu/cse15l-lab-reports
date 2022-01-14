@@ -1,5 +1,5 @@
 # Week 2 Lab Report
-1. Step 1: Installing Visual Code Studio
+## Step 1: Installing Visual Code Studio
 
 > I had already installed Visual Code Studio for my CSE 11 class last quarter, so I didn't really do anything for this step.
 
@@ -8,7 +8,7 @@ This is an image of my open VSCode:
 
 ***
 
-Step 2. Remotely Connecting
+## Step 2: Remotely Connecting
 
 > Since I am working on a Windows laptop, I had to follow the extra steps to install OpenSSH Client and OpenSSH Server. I checked and saw that I already had OpenSSH Client on my laptop, so I thought I was done and ignored all the other necessary steps. This caused problems later on during the lab. But I was still able to remotely connect to the ieng6 server after resetting my password and waiting for the password to update.
 > 
@@ -19,7 +19,7 @@ This is an image of me connecting to the server:
 
 ***
 
-3. Step 3: Trying Some Commands
+## Step 3: Trying Some Commands
 > I connected remotely to the server, then tried some of the commands. I used ls to see the files and directories, then used pwd to see the name of the directory, then used that info to change the directory to perl5. There was nothing in there. I then tried commands on my own computer. I used the ls command, and it worked a little differently than it did on the linux os, but it did show the directories. I used the pwd command, got the directory name, and added \Downloads to change directory (using cd) to Downloads.
 
 This is an image of the commands on the server:
@@ -30,7 +30,7 @@ This is an image of the commands on my laptop:
 
 ***
 
-4. Step 4: Moving Files with scp
+## Step 4: Moving Files with scp
 > I managed to move the WhereAmI.java file pretty easily to the server. I then logged into the server did the command ls and saw that the file was there. I then ran the javac and java commands to run the file. The getProperty method gets the property for the computer it's run on. I know this because on my computer, System.getProperty("os.name") gave "Windows 10," while on the school server, it gave "Linux."
 
 This is an image of me moving "WhereAmI.java" to the school server and running the java file.
@@ -38,4 +38,11 @@ This is an image of me moving "WhereAmI.java" to the school server and running t
 
 ***
 
+## Step 5: Setting an SSH Key
+> During the lab, I managed to generate a ssh key, but when I went to run the extra commands needed for the Windows OS, they just would not work. I got stuck at this point during the lab. But later, in my own time, I figured out the issue. I wasn't connected to VSCode as an administrator, so I couldn't run those commands. Like I mentioned in Step 2, I figured out how to do that. And then the commands worked. But after that, I had issues figuring out how to copy the public key into the school server. I messed up and created a directory called "authorized_keys" in .ssh in the server instead of a textfile, and I kept trying over and over, because I couldn't figure out what was going wrong. I was managing to copy the public key into the "authorized_keys" directory, but it obviously didn't stop the need for a password to connect to the server. I finally realized my mistake, and deleted the directory I made, and then ran the command that copied the key into a textfile. And then I could connect to the school server without a password.
+
+This is an image of me connecting to the server without a password:
 ![Image](Lab_Report_Week_2_Screenshots/SSH_Key.png)
+
+***
+
