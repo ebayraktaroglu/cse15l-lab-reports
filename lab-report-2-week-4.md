@@ -20,4 +20,4 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 >The bug was that the original file was using `indexOf` to find the next open and closed parenthesis. In this file, there was no open or closed parenthesis. This means that the `indexOf` returned -1, and when the method tried to add the "link" between the indexes of -1 and -1, it gave an `IndexOutOfBoundsException`. The fix for the bug makes sure to use if statements to check is the `indexOf` is -1, and acts accordingly to avoid the exception.
 
 This is a image of the code change diff:
-![Bug One Code Diff](cse15l-lab-reports/Lab_Report_Week_4_Screenshots/BugOneFix.png)
+![Bug One Code Diff](Lab_Report_Week_4_Screenshots/BugOneFix.png)
