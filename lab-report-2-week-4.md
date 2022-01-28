@@ -22,3 +22,10 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 
 This is a image of the code change diff:
 ![Bug One Code Diff](Lab_Report_Week_4_Screenshots/BugOneFix.png)
+
+## Bug Two
+
+>Another bug our group encountered was that the program we wrote got the "link" even if it wasn't a valid one. The file that contained the failure-inducing input was [this one](https://github.com/ebayraktaroglu/markdown-parse/blob/e8730c20114c72506184840112ea49158778f291/test-file4.md). The symptom of this was that the program printed out the text "link goes here!", even though it wasn't a link. Our fix for this was to check if the supposed link had a period in it. If it did, we counted it as a link.
+
+This is an image of the code chagne diff:
+![Bug Two Code Diff](Lab_Report_Week_4_Screenshots/BugTwoFix.png)
