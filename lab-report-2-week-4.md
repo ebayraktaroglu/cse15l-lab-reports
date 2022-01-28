@@ -29,3 +29,10 @@ This is a image of the code change diff:
 
 This is an image of the code chagne diff:
 ![Bug Two Code Diff](Lab_Report_Week_4_Screenshots/BugTwoFix.png)
+
+## Bug Three
+
+>One more bug our group encountered was when the markdown file ended in a open bracket. When there wasn't a closed bracket to accompany the open bracket, our while loop became an infinite loop as the program kept searching for a closed bracket. This lead to an error that said you were out of memory. The two files that showcased this bug were [this file](https://github.com/ebayraktaroglu/markdown-parse/blob/e8730c20114c72506184840112ea49158778f291/test-file7.md) and [this file](https://github.com/ebayraktaroglu/markdown-parse/blob/e8730c20114c72506184840112ea49158778f291/test-file8.md). We fixed this by changing the way the program worked a lot. We found the period (that a link could contain), and then expanded outward until the program found the parenthesis for the link, which fixed the error in this case. But I think this would cause errors if some text in the markdown file (that wasn't a link) had a period in it.
+
+This is an image of the code chagne diff:
+![Bug Three Code Diff](Lab_Report_Week_4_Screenshots/BugThreeFix.png)
