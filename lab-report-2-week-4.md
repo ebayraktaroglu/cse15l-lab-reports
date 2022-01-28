@@ -9,7 +9,8 @@
 ## Bug One
 
 >One bug our group encountered occurred when a markdown file contained the information in brackets, but the link wasn't in paranthesis, it would give an `IndexOutOfBoundsException`. [Here](https://github.com/ebayraktaroglu/markdown-parse/blob/e8730c20114c72506184840112ea49158778f291/markdown-test-three.md) is the file that contains the failure-inducing input.
->Here is the symptom of this bug:
+
+Here is the symptom of this bug (the terminal output):
 ```
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 152
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)
