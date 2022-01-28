@@ -36,4 +36,4 @@ This is an image of the code chagne diff:
 
 This is an image of the code chagne diff:
 
-![Bug Three Code Diff](Lab_Report_Week_4_Screenshots/BugThreeFix.png | width=100)
+![Bug Three Code Diff](Lab_Report_Week_4_Screenshots/BugThreeFix.png)
