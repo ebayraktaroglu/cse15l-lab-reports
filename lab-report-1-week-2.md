@@ -77,5 +77,8 @@ This is an screenshot of me connecting to the server without a password:
 >Previously, if I wanted to do this, I would have to run these three commands separately: `scp TestFastEdit.java cs15lwi22aad@ieng6.ucsd.edu:~/`, `ssh cs15lwi22aad@ieng6.ucsd.edu javac TestFastEdit.java`, and `ssh cs15lwi22aad@ieng6.ucsd.edu java TestFastEdit`. Assuming I'd ran those programs in order once before, reruning the commands would and did take twelve keystrokes, nine of which were pressing the up arrow to get to the previously run commands.
 >Two keystrokes is a lot less than twelve keystrokes, so this method makes things a lot more efficient.
 
-This is an image of me copying, compiling, and running the java file on the server in one line:
+This is an image of me copying, compiling, and running the java file on the server in one line twice, once before changing the java file, then after:
 ![Image](Lab_Report_Week_2_Screenshots/Optimizing_Remote_Running.png)
+
+This is an image of me running the commands separately:
+![Image](Lab_Report_Week_2_Screenshots/MultipleLines.png)
