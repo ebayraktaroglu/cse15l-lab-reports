@@ -10,14 +10,20 @@
 
 This is the .ssh directory:
 
+![.ssh directory](Lab_Report_Week_6_Screenshots/sshLocation.png)
 
 This is the config file in Notepad:
+
+![config file](Lab_Report_Week_6_Screenshots/configInNotepad.png)
 
 
 This is me logging into the server using the nickname:
 
+![logging in](Lab_Report_Week_6_Screenshots/sshNicknameLogin.png)
 
-This is me copying a file into the server using the nickname:
+This is me copying a file into the server using the nickname, and then logging in to see if the file is there:
+
+![copying file](Lab_Report_Week_6_Screenshots/sshNickname-CopyingFile.png)
 
 
 
