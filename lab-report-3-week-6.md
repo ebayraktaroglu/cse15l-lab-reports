@@ -14,7 +14,7 @@ This is the .ssh directory:
 
 This is the config file in Notepad:
 
-![config file](Lab_Report_Week_6_Screenshots/configInNotepad.png)
+![config file](Lab_Report_Week_6_Screenshots/configFile.png)
 
 
 This is me logging into the server using the nickname:
