@@ -10,7 +10,7 @@
 
 This is the .ssh directory:
 
-![.ssh directory](Lab_Report_Week_6_Screenshots/sshLocation.png)
+![.ssh directory](Lab_Report_Week_6_Screenshots/sshDirectory.png)
 
 This is the config file in Notepad:
 
