@@ -5,7 +5,7 @@
 
 [Link to my group's markdown-parse repo](https://github.com/ebayraktaroglu/markdown-parse)
 
-[Link to other group's markdown-parse repo] (https://github.com/bimai25/markdown-parse-brandon)
+[Link to other group's markdown-parse repo](https://github.com/bimai25/markdown-parse-brandon)
 
 ## Snippet 1
 
