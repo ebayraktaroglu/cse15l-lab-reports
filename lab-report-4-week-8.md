@@ -3,9 +3,9 @@
 [Back to Main Page](https://ebayraktaroglu.github.io/cse15l-lab-reports/)
 
 
-[Link to my markdown-parse repo](https://github.com/ebayraktaroglu/markdown-parse)
+[Link to my group's markdown-parse repo](https://github.com/ebayraktaroglu/markdown-parse)
 
-[Link to reviewed markdown-parse repo] (don't know yet - fix when find out)
+[Link to other group's markdown-parse repo] (https://github.com/bimai25/markdown-parse-brandon)
 
 ## Snippet 1
 
