@@ -21,6 +21,11 @@ Output (Test Failed):
 ![Snippet 1 Test Output - Mine](Lab_Report_Week_8_Screenshots/Snippet1TestOutputMine.png)
 
 
+Is there a small change that will fix it?
+
+There is no small change that will fix this error, because our group understood the prompt wrong and thought we needed to extract all links, regardless of whether they were in markdown format or not. Because of this, our code finds each period and expands outward to try to find the link the period is in, which creates a lot of errors. Since we haven't even gotten to fixing that, there is no way we can we can account for the backtick on the first line of snippet 1 without first completely changing our code.
+
+
 ## Other Group's Implementation
 
 Test:
