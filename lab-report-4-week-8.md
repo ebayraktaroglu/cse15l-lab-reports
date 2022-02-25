@@ -82,7 +82,7 @@ Output (Test Failed):
 
 Is there a small change that will fix it?
 
-What I said before applies, but I don't really even know what the error is in this case. There seems to be an error in the test output, because the `java.lang.AssertionError:` text is missing or obscured or something, and one link is outside the brackets that indicate the link is in an ArrayList, so I don't know what's going on with that. Also, when I ran the test a different time, it gave out a **different** output, and I have no idea what is causing that.
+What I said before applies, but I don't really even know what the error is in this case. There seems to be an error in the test output, because the `java.lang.AssertionError:` text is missing or obscured or something, and one link is outside the brackets that indicate the link is in an ArrayList, so I don't know what's going on with that. Also, when I ran the test a different time, without changing anything, it gave out a **different** output, and I have no idea what is causing that.
 
 Different Output:
 
