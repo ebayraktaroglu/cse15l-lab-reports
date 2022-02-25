@@ -50,6 +50,10 @@ Output (Test Failed):
 
 ![Snippet 2 Test Output - Mine](Lab_Report_Week_8_Screenshots/Snippet2TestOutputMine.png)
 
+Is there a small change that will fix it?
+
+Like I said before, we implemented our markdown-parse completely wrong, so to fix this, we would have to completely change our code, and then account for the (()) being part of the link.
+
 
 ## Other Group's Implementation
 
@@ -76,6 +80,15 @@ Output (Test Failed):
 ![Snippet 3 Test Output - Mine](Lab_Report_Week_8_Screenshots/Snippet3TestOutputMine.png)
 
 
+Is there a small change that will fix it?
+
+What I said before applies, but I don't really even know what the error is in this case. There seems to be an error in the test output, because the `java.lang.AssertionError:` text is missing or obscured or something, and one link is outside the brackets that indicate the link is in an ArrayList, so I don't know what's going on with that. Also, when I ran the test a different time, it gave out a **different** output, and I have no idea what is causing that.
+
+Different Output:
+
+![Snippet 3 Test Output 2 - Mine](Lab_Report_Week_8_Screenshots/Snippet3TestOutput2Mine.png)
+
+
 ## Other Group's Implementation
 
 Test:
@@ -85,6 +98,8 @@ Test:
 Output (Test Failed):
 
 ![Snippet 3 Test Output - Other](Lab_Report_Week_8_Screenshots/Snippet3TestOutputOther.png)
+
+
 
 
 
