@@ -61,6 +61,14 @@ okay.
 
 ### Explanation:
 
+>To find this file, I looked through some of the test files and tried to pick one I thought would have an interesting result. I tested it on both implementation, and the implementations had different outputs from the expected.
 
+>The expected result is an `[/uri]`, but neither of the implementations detected any links in the file.
+
+>The bug in the Lab 9 implementation is that it only checks the one link type, where the link is formatted like this: `[link](link.com)`. The type of link in this file is a reference link, where the second `[bar//]` basically references the link in the line `[bar\\]: /uri`, so the link `\uri`. The Lab 9 implementation does not check this type of link. To fix this bug, you would have to have the code check if there are reference type links, so if there is text between brackets, but no parenthesis after it, it would have to look for another set of brackets with the same text inside, then check if it has a colon and then text after it, and take that text as a link. This would be a complicated thing to write without messing up the parts that already work.
+
+This is part of the bug, where the code assumes there has to be parenthesis for a valid link to exist in the file:
+
+![File 1 - My Group's Bug](Lab_Report_Week_10_Screenshots/TeacherBug.png)
 
 
