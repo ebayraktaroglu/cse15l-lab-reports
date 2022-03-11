@@ -6,3 +6,4 @@
 - [Lab Report 2 - Week 4](https://ebayraktaroglu.github.io/cse15l-lab-reports/lab-report-2-week-4)
 - [Lab Report 3 - Week 6](https://ebayraktaroglu.github.io/cse15l-lab-reports/lab-report-3-week-6)
 - [Lab Report 4 - Week 8](https://ebayraktaroglu.github.io/cse15l-lab-reports/lab-report-4-week-8)
+- [Lab Report 5 - Week 10](https://ebayraktaroglu.github.io/cse15l-lab-reports/lab-report-5-week-10)
