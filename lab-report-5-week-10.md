@@ -37,7 +37,7 @@ okay.
 
 #### Basically all the code has to be changed for this bug to be fixed. Here is part of the bug:
 
-![File 1 - My Group's Bug](Lab_Report_Week_10_Screenshots/OurGroupBug.png)
+![File 1 - My Group's Bug](Lab_Report_Week_10_Screenshots/MyGroupBug.png)
 
 
 
